@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace your-domain.example with the production domain before deployment. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://your-domain.example/</loc></url>
+  <url><loc>https://your-domain.example/books</loc></url>
+  <url><loc>https://your-domain.example/books/30-edutainment-articles</loc></url>
+  <url><loc>https://your-domain.example/books/jnu-tales</loc></url>
+  <url><loc>https://your-domain.example/books/happy-life-with-nlp</loc></url>
+  <url><loc>https://your-domain.example/books/spiritual-poems</loc></url>
+  <url><loc>https://your-domain.example/about</loc></url>
+  <url><loc>https://your-domain.example/contact</loc></url>
+</urlset>

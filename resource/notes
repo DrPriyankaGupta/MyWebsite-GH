@@ -1,0 +1,4 @@
+cd /d C:\Users\hatim\Desktop\pg-nw
+npm run dev -- --host 0.0.0.0
+
+cloudflared tunnel --url http://localhost:5173
