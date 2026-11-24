@@ -42,3 +42,5 @@ Use the generated `trycloudflare.com` URL while both terminals remain running. T
 - Replace `your-domain.example` in `public/robots.txt` and `public/sitemap.xml` with the production domain.
 
 The book description, category, review, cover, profile, and contact details shown as placeholders are intentionally not invented.
+
+# MyWebsite-GH
