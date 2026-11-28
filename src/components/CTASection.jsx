@@ -10,7 +10,7 @@ export default function CTASection() {
       <div>
         <p className="eyebrow eyebrow--light">A little more to discover</p>
         <h2>Explore, read, and connect.</h2>
-        <p>Explore the books and find the next idea to carry with you.</p>
+        <p>Read. Reflect. Rediscover. Evolve.</p>
       </div>
       <div className="closing-cta__actions">
         <Link className="button button--light" to="/books">

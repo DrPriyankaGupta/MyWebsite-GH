@@ -39,7 +39,7 @@ export default function BookCard({ book }) {
               title={`Add the verified Amazon URL for ${book.title} in src/data/books.js`}
               type="button"
             >
-              Buy on Amazon — link to be added
+              Buy on Amazon - link to be added
             </button>
           )}
         </div>

@@ -175,7 +175,7 @@ export default function Home() {
             <p className="eyebrow">The author</p>
             <h2>Writing from curiosity, experience, and reflection.</h2>
             <p>
-              Dr. Priyanka Gupta brings together scholarship, coaching, and lived experience to make space for more thoughtful ways of seeing and living.
+              Dr. Priyanka Gupta brings together mindfulness, coaching, and lived experience to make space for more thoughtful ways of seeing and living.
             </p>
             <div className="about-preview__credential">
               <GraduationCap aria-hidden="true" size={19} />

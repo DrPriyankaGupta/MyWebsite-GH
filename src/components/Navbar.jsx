@@ -46,6 +46,13 @@ export default function Navbar() {
               {label}
             </NavLink>
           ))}
+          <a
+            className="nav-link nav-link--mobile-only"
+            href="#newsletter-heading"
+            onClick={() => setOpenPath(null)}
+          >
+            Newsletter signup
+          </a>
           <Link className="header-cta" to="/books">
             Explore my books <ArrowUpRight aria-hidden="true" size={15} />
           </Link>

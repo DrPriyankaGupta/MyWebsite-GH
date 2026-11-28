@@ -27,7 +27,7 @@ export default function Footer() {
             items={[
               'ICF-Certified Life Coach',
               'Amazon Published Author',
-              'Doctorate in School of International Studies · JNU',
+              'Doctorate From School of International Studies · JNU',
               'NLP Practitioner',
               'Wellness Guide',
             ]}
