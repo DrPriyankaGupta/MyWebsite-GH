@@ -29,10 +29,20 @@ const journey = [
 ]
 
 export default function About() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: author.name,
+    url: 'https://drpriyankawellness.com/about',
+    image: 'https://drpriyankawellness.com/images/author-profile.webp',
+    description: author.shortDescription,
+  }
+
   return (
     <>
       <Seo
         description="Discover Dr. Priyanka Gupta’s journey as an Amazon-published author, academic background, professional practice, and interests in spirituality, mindfulness, and personal growth."
+        structuredData={structuredData}
         title="About the Author | Dr. Priyanka Gupta"
       />
       <main>

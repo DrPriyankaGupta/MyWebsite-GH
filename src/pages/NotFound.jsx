@@ -6,6 +6,7 @@ export default function NotFound() {
     <>
       <Seo
         description="The page you are looking for could not be found. Return to the website of Dr. Priyanka Gupta."
+        noindex
         title="Page not found | Dr. Priyanka Gupta"
       />
       <main className="not-found">

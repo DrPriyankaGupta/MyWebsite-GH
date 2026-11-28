@@ -37,9 +37,9 @@ Use the generated `trycloudflare.com` URL while both terminals remain running. T
 - Add approved book descriptions, categories, introductions, reading takeaways, and reasons to read in `src/data/books.js`.
 - Add each verified Amazon URL to its book's `amazonUrl` in `src/data/books.js`. The purchase links remain inactive until then.
 - Add the YouTube, LinkedIn, Instagram, and Facebook profile URLs in `src/data/socialLinks.js`.
-- Add the professional email and WhatsApp number in `src/data/author.js`. The WhatsApp action uses the prefilled enquiry message stored alongside the number.
+- Update the professional email and WhatsApp number in `src/data/author.js` as needed. The WhatsApp action uses the prefilled enquiry message stored alongside the number.
 - Connect the contact form in `src/pages/Contact.jsx` to an approved email or backend service before accepting submissions. Until then, it validates fields locally and does not send or store messages.
-- Replace `your-domain.example` in `public/robots.txt` and `public/sitemap.xml` with the production domain.
+- Keep the production domain in `public/robots.txt`, `public/sitemap.xml`, and canonical/structured-data metadata aligned if the domain changes.
 
 The book description, category, review, cover, profile, and contact details shown as placeholders are intentionally not invented.
 

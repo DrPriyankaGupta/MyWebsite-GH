@@ -17,6 +17,20 @@ export default function BookDetails() {
     <>
       <Seo
         description={book.description}
+        structuredData={{
+          '@context': 'https://schema.org',
+          '@type': 'Book',
+          name: book.title,
+          author: {
+            '@type': 'Person',
+            name: 'Dr. Priyanka Gupta',
+            url: 'https://drpriyankawellness.com/about',
+          },
+          isbn: book.isbn,
+          image: `https://drpriyankawellness.com${book.cover}`,
+          description: book.description,
+          url: `https://drpriyankawellness.com/books/${book.slug}`,
+        }}
         title={`${book.title} | Dr. Priyanka Gupta`}
       />
       <main>

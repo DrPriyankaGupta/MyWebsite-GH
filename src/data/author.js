@@ -22,7 +22,7 @@ export const author = {
     'Doctorate in Russian Foreign Policy, School of International Studies, Jawaharlal Nehru University (JNU), New Delhi',
   mentorship:
     'Her coaching journey has been shaped by the guidance of Dr. Jitendra Adhia, Dr. Yogendra Singh Rathore, and Honey Gudh at Cocoweave, Delhi.',
-  email: null,
+  email: 'contact@drpriyankawellness.com',
   whatsappNumber: '+91 9560468038',
   whatsappMessage:
     'Hello Dr. Priyanka Gupta, I would like to enquire about your services.',

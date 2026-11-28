@@ -123,7 +123,7 @@ export default function Contact() {
             <div className="contact-aside__intro">
               <p className="eyebrow">Contact details</p>
               <h2>Let's connect.</h2>
-              <p>Contact details and social profile links will be added here when they are available.</p>
+              <p>For enquiries, reach out by email or WhatsApp, or follow along on social media.</p>
             </div>
             <div className="contact-detail">
               <span className="contact-detail__icon"><Mail aria-hidden="true" size={18} /></span>

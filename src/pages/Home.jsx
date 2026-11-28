@@ -11,6 +11,7 @@ import Seo from '../components/Seo'
 import SocialLinks from '../components/SocialLinks'
 import { author, interests } from '../data/author'
 import { books } from '../data/books'
+import { socialLinks } from '../data/socialLinks'
 
 const banners = [
   {
@@ -49,6 +50,25 @@ export default function Home() {
     return () => window.clearInterval(timer)
   }, [isBannerPaused])
 
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: 'Dr. Priyanka Gupta',
+        url: 'https://drpriyankawellness.com/',
+      },
+      {
+        '@type': 'Person',
+        name: author.name,
+        url: 'https://drpriyankawellness.com/about',
+        image: 'https://drpriyankawellness.com/images/author-profile.webp',
+        description: author.shortDescription,
+        sameAs: socialLinks.map(({ url }) => url),
+      },
+    ],
+  }
+
   const selectBanner = (index) => {
     setActiveBanner(index)
   }
@@ -57,6 +77,7 @@ export default function Home() {
     <>
       <Seo
         description="Explore the writing, professional practice, and areas of interest of Dr. Priyanka Gupta—Amazon-published author, ICF-certified Life Coach, NLP Practitioner, and Wellness Guide."
+        structuredData={structuredData}
         title="Dr. Priyanka Gupta | Author, Life Coach & Wellness Guide"
       />
       <main className="home-page">
