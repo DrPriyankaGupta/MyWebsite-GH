@@ -68,7 +68,7 @@ function NewsletterPopup({ onClose }) {
             allowFullScreen
             frameBorder="0"
             height="620"
-            scrolling="no"
+            scrolling="auto"
             src={newsletterFormUrl}
             title="Newsletter signup form"
             width="540"
