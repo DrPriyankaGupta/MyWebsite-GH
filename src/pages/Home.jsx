@@ -34,6 +34,10 @@ const banners = [
     alt: 'Cozy Lessons Taught by Time',
     src: '/images/banners/Cozy Lessons Taught by Time.webp',
   },
+  {
+    alt: "Children's affirmation cards with messages about kindness, confidence, positivity, gratitude, and growth",
+    src: '/images/banners/Cheerful Kids Affirmation Garden.webp',
+  },
 ]
 
 export default function Home() {

@@ -30,7 +30,7 @@ export default function RecognitionSection() {
               <span className="interview-card__publication">
                 <img alt="Interview Times" src="/images/interview-times-logo.png" />
               </span>
-              <time dateTime="2023-10-10">October 10, 2023</time>
+              {/* <time dateTime="2023-10-10">October 10, 2023</time> */}
             </div>
             <p className="interview-card__type">Author interview</p>
             <h3>In Conversation with Dr. Priyanka Gupta</h3>
