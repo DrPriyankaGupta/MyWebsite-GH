@@ -11,6 +11,8 @@ npm run dev
 
 Create a production build with `npm run build`.
 
+Vercel uses `vercel.json` to serve the SPA entry point for direct visits and reloads on client-side routes such as `/books` and `/about`.
+
 ## Temporary Cloudflare Tunnel
 
 To share the local Vite server publicly from Windows:

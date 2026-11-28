@@ -1,6 +1,6 @@
 import { X } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import About from './pages/About'
@@ -106,6 +106,7 @@ function SiteLayout() {
       <div id="main-content" tabIndex="-1">
         <Routes>
           <Route element={<Home />} path="/" />
+          <Route element={<Navigate replace to="/books" />} path="/book" />
           <Route element={<Books />} path="/books" />
           <Route element={<BookDetails />} path="/books/:slug" />
           <Route element={<About />} path="/about" />
